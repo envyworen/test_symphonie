@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+
+
+{% block body %}
+    {% include "nav.html.twig" %}
+
+
+       <p> {{ info.titre }} </p>
+       <p> {{ info.txt }} </p>
+       <img src="{{ info.url }}" alt="">
+    
+
+{% endblock %}

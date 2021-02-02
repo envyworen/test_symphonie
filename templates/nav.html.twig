@@ -1,0 +1,7 @@
+<nav>
+    
+    {% for row in tout %}
+    <a href="{{ path('chateau', {id: row.id }) }}">{{ row.titre }}</a>
+    {% endfor %}
+   
+</nav>

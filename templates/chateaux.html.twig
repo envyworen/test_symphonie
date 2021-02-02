@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+{% include "nav.html.twig" %}
+    {% for row in tout %}
+       <p> {{ row.id }} </p>
+       <p> {{ row.titre }} </p>
+    {% endfor %}
+
+{% endblock %}
